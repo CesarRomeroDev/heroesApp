@@ -1,5 +1,12 @@
 # HeroesApp
 
+## Temas Implementados
+
+Sección 13.
+
+- Creación de componentes.
+- Rutas hijas y LazyLoad.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
 
 ## Development server
