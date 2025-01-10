@@ -23,6 +23,14 @@ El formato se adhiere a [Keep a Changelog](https://keepachangelog.com/) y sigue 
 - Enumera cada punto con guiones (-).
 - Sé claro y conciso.
 
+### [1.1.0]
+
+### Added 2025-01-10
+
+- Instalación de Angular Material: versión material@17.0.0 [https://material.angular.io/].
+- Se agrega link tag de PrimeFlex : [https://primeflex.org/].
+- Diseño de Login y Auth Layout
+
 ## [1.0.0] 2025-01-09
 
 ### Added 2025-01-09

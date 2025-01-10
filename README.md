@@ -6,6 +6,9 @@ Sección 13.
 
 - Creación de componentes.
 - Rutas hijas y LazyLoad.
+- Instalación de Angular Material: versión material@17.0.0 [https://material.angular.io/].
+- implementación link tag de PrimeFlex : [https://primeflex.org/].
+- Implementacion de matInput. ( Angular Material )
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
 
