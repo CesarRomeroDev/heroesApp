@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
 import { HeroesRoutingModule } from './heroes-routing.module';
+import { MaterialModule } from '../material/material.module';
 
 import { HeroesHeroViewsComponent } from './views/heroes-hero-views/heroes-hero-views.component';
 import { HeroesLayoutViewsComponent } from './views/heroes-layout-views/heroes-layout-views.component';
@@ -19,7 +21,8 @@ import { HeroesSearchViewsComponent } from './views/heroes-search-views/heroes-s
   ],
   imports: [
     CommonModule,
-    HeroesRoutingModule
+    HeroesRoutingModule,
+    MaterialModule,
   ]
 })
 export class HeroesModule { }

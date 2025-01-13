@@ -25,6 +25,16 @@ El formato se adhiere a [Keep a Changelog](https://keepachangelog.com/) y sigue 
 
 ### [1.1.0]
 
+### Added 2025-01-13
+
+- Se realiza diseño de heroes-layout
+- Se implementa toolbar para el encabezado y boton para el desplazamiento de menu lateral.
+- Se implementa mat-sidenav para ocultar y mostrar menu lateral.
+- Se implementa mat-nav-list en menu lateral para el desplazamiento de views( listado, añadir y buscar ).
+- Se agrega dependencia para la creación de servidor para desarrollo: "json-server": "^1.0.0-beta.3"
+- Se crea carperta en la raiz "data" -> archivo "db.json", archivo 'bd-back.json'.
+- Se agrega script en archivo package.json para correr Servidor localmente.
+
 ### Added 2025-01-10
 
 - Instalación de Angular Material: versión material@17.0.0 [https://material.angular.io/].
