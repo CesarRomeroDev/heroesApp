@@ -6,18 +6,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { SharedModule } from './shared/shared.module';
+import { provideHttpClient } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    AppRoutingModule,
     BrowserModule,
-    SharedModule  //carpeta Shared
+
+    AppRoutingModule,
+    SharedModule,  //carpeta Shared
   ],
   providers: [
-    provideAnimationsAsync()
+    provideAnimationsAsync(),
+    provideHttpClient() //peticiones http
   ],
   bootstrap: [AppComponent]
 })

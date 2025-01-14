@@ -25,6 +25,21 @@ El formato se adhiere a [Keep a Changelog](https://keepachangelog.com/) y sigue 
 
 ### [1.1.0]
 
+### Added 2025-01-14
+
+- Se crean archivos environmrnts para las variables de entorno en el proyecto.
+- Se realiza configuración en el archivo angular.json para el reconocimiento y reemplazo de el archivo environment.
+- Se realiza el tipado del objeto de dn.json y se crean las interfaces.
+- Se importa HttpClient de angular/common/http' para las peticiones http.
+- Se implementa providers: provideHttpClient() en app.module para su implementación en los servicios.
+- Se crea archivo de servicios para las peticiones.
+- Se implementa observable de tipo Hero[].
+- Se utiliza operador Get para obtener el arreglo de heroes.
+- Se implementa ngOnInit para obtener heroes implementando subscribe.
+- Se crea archivo para las cards de los Heroes.
+- Se realiza @Input para obtener la data del pradre(heroes-list-views) en el archivio de cards.
+- Se realiza diseño de Cards
+
 ### Added 2025-01-13
 
 - Se realiza diseño de heroes-layout

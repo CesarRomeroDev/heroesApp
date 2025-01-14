@@ -15,6 +15,12 @@ Sección 13.
 - Se implementa mat-sidenav( Angular Material ) menu lateral y mat-nav-list( Angular Material ) para el desplazamiendo de vistas.
 - Se agrega dependencia para Servidor Json para desarrollo: [https://www.npmjs.com/package/json-server].
 - Se implementa script("backend": "json-server --watch data/db.json",) para correr Servidor Json localmente en archivo 'package.json'
+- Implementaciónde archivos environment locales y de producción.
+- Importación de HttpClient para peticiones http.
+- Implementación de provideHttpClient() "Angular18+"
+- Subscribe para obtener data del Observable.
+- Implementación de *ngFor
+- Implementación de decorador @Input.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
 

@@ -9,6 +9,7 @@ import { HeroesLayoutViewsComponent } from './views/heroes-layout-views/heroes-l
 import { HeroesListViewsComponent } from './views/heroes-list-views/heroes-list-views.component';
 import { HeroesNewViewsComponent } from './views/heroes-new-views/heroes-new-views.component';
 import { HeroesSearchViewsComponent } from './views/heroes-search-views/heroes-search-views.component';
+import { HeroesHeroCardComponent } from './components/heroes-hero-card/heroes-hero-card.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HeroesSearchViewsComponent } from './views/heroes-search-views/heroes-s
     HeroesLayoutViewsComponent,
     HeroesListViewsComponent,
     HeroesNewViewsComponent,
-    HeroesSearchViewsComponent
+    HeroesSearchViewsComponent,
+    HeroesHeroCardComponent
   ],
   imports: [
     CommonModule,
