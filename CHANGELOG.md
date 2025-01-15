@@ -25,6 +25,13 @@ El formato se adhiere a [Keep a Changelog](https://keepachangelog.com/) y sigue 
 
 ### [1.1.0]
 
+### Added 2025-01-15
+
+- Se agrega etiqueta de imagen en el archivo hero-card para renderizar imagenes.
+- Se agregan imagenes en carpeta public-> assets -> heroes.
+- Se agrega nuevo atributo en la interface de la clase Hero para la imagen alternativa.
+- Se realiza Pipe ( hero-image.pipe ) para renderizar código de imagen.
+
 ### Added 2025-01-14
 
 - Se crean archivos environmrnts para las variables de entorno en el proyecto.

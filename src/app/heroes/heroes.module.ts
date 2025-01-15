@@ -10,6 +10,7 @@ import { HeroesListViewsComponent } from './views/heroes-list-views/heroes-list-
 import { HeroesNewViewsComponent } from './views/heroes-new-views/heroes-new-views.component';
 import { HeroesSearchViewsComponent } from './views/heroes-search-views/heroes-search-views.component';
 import { HeroesHeroCardComponent } from './components/heroes-hero-card/heroes-hero-card.component';
+import { HeroImagePipe } from './pipes/hero-image.pipe';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,9 @@ import { HeroesHeroCardComponent } from './components/heroes-hero-card/heroes-he
     HeroesListViewsComponent,
     HeroesNewViewsComponent,
     HeroesSearchViewsComponent,
-    HeroesHeroCardComponent
+    HeroesHeroCardComponent,
+    //pipes
+    HeroImagePipe
   ],
   imports: [
     CommonModule,

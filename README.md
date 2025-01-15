@@ -21,6 +21,8 @@ Sección 13.
 - Subscribe para obtener data del Observable.
 - Implementación de *ngFor
 - Implementación de decorador @Input.
+- Mat-card
+- Pipes.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
 
