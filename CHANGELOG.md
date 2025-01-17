@@ -25,6 +25,13 @@ El formato se adhiere a [Keep a Changelog](https://keepachangelog.com/) y sigue 
 
 ### [1.1.0]
 
+### Added 2025-01-16
+
+- Se realiza servicio para obtener el heroe por id.
+- Se realiza implementacion de OnInit, se utiliza activatedRoute para obtener los params.
+- Se implementa switchMap para tranformar la data de los params a id que mandamos como parametro para el metodo para los servicios.
+- Se implementa el erro para cachar si es que no viene el id o url requerida.
+
 ### Added 2025-01-15
 
 - Se agrega etiqueta de imagen en el archivo hero-card para renderizar imagenes.

@@ -23,6 +23,10 @@ Sección 13.
 - Implementación de decorador @Input.
 - Mat-card
 - Pipes.
+- catchError
+- activatedRoute( Observable )
+- switchMap(rxjs)
+- router.navigate
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
 
