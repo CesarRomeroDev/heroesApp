@@ -25,6 +25,13 @@ El formato se adhiere a [Keep a Changelog](https://keepachangelog.com/) y sigue 
 
 ### [1.1.0]
 
+### Added 2025-01-17
+
+- Se trabaja la parte visual heroes-hero-views.html.
+- Se agrega tarjeta con titulo y subtitulo e imagen.
+- Se implementa segunda tarjeta con información especifica del heroe.
+- Se implementa mat-spinner(Angular material), para la carga de data.
+
 ### Added 2025-01-16
 
 - Se realiza servicio para obtener el heroe por id.

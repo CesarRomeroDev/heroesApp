@@ -27,6 +27,9 @@ Sección 13.
 - activatedRoute( Observable )
 - switchMap(rxjs)
 - router.navigate
+- ng-template
+- mat-card (Angular Material)
+- mat-list (Angular Material)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
 
