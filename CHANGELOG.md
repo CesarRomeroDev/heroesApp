@@ -25,6 +25,13 @@ El formato se adhiere a [Keep a Changelog](https://keepachangelog.com/) y sigue 
 
 ### [1.1.0]
 
+### Added 2025-01-21
+
+- Se realiza servicio para obtener sugerencias de heroes.
+- Se implementa componente mat-form-field para el campo de busqueda de heroe.
+- se implementa FormControl de @angular/forms en input.
+- Se impementa evento MatAutocompleteSelectedEvent para seleccionar la opción.
+
 ### Added 2025-01-17
 
 - Se trabaja la parte visual heroes-hero-views.html.

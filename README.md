@@ -30,6 +30,9 @@ Sección 13.
 - ng-template
 - mat-card (Angular Material)
 - mat-list (Angular Material)
+- mat-form-field (Angular Material)
+- mat-option (Angular Material)
+- evento MatAutocompleteSelectedEvent de AngularForm
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
 
