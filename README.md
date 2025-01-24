@@ -6,12 +6,41 @@ Sección 13.
 
 - Creación de componentes.
 - Rutas hijas y LazyLoad.
+- Instalación de Angular Material: versión material@17.0.0 [https://material.angular.io/].
+- implementación link tag de PrimeFlex : [https://primeflex.org/].
+- Implementacion de matInput. ( Angular Material ).
+- Implementación de mat-form-field( Angular Material ) para los formularios de login y register.
+- Implementació de routerLink( Angular ) para el desplazamiento de vistas register y login.
+- Se implementa mat-toolbar( Angular Material ) para el header.
+- Se implementa mat-sidenav( Angular Material ) menu lateral y mat-nav-list( Angular Material ) para el desplazamiendo de vistas.
+- Se agrega dependencia para Servidor Json para desarrollo: [https://www.npmjs.com/package/json-server].
+- Se implementa script("backend": "json-server --watch data/db.json",) para correr Servidor Json localmente en archivo 'package.json'
+- Implementaciónde archivos environment locales y de producción.
+- Importación de HttpClient para peticiones http.
+- Implementación de provideHttpClient() "Angular18+"
+- Subscribe para obtener data del Observable.
+- Implementación de *ngFor
+- Implementación de decorador @Input.
+- Mat-card
+- Pipes.
+- catchError
+- activatedRoute( Observable )
+- switchMap(rxjs)
+- router.navigate
+- ng-template
+- mat-card (Angular Material)
+- mat-list (Angular Material)
+- mat-form-field (Angular Material)
+- mat-option (Angular Material)
+- evento MatAutocompleteSelectedEvent de AngularForm.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+Run `npm run backend` for a dev server Json. Navigate to `http://localhost:3000/users` or `http://localhost:3000/heroes`
 
 ## Code scaffolding
 
