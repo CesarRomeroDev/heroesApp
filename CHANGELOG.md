@@ -25,6 +25,11 @@ El formato se adhiere a [Keep a Changelog](https://keepachangelog.com/) y sigue 
 
 ### [1.1.0]
 
+### Added 2025-01-23
+
+- Se realiza maquetado de views heroes new ,formulario para poder realizar un nuevo heroe  la eliminación o guardar el heroe.
+- se realiza array de objetos para la seleccion de plublisher en mat-option
+
 ### Added 2025-01-21
 
 - Se realiza servicio para obtener sugerencias de heroes.
